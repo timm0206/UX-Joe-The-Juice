@@ -76,6 +76,7 @@ nav ul li {
     text-align: center;
 }
 
+/*
 #splashimage {
     width: 100vw;
     height: 100vh;
@@ -84,15 +85,49 @@ nav ul li {
     background-image: url('../Pics/background.png');
     position: absolute;
 }
-
+*/
 
 h1 {
-    display: flex;
     justify-content: center;
-    z-index: 10000;
+    display: flex;
+    z-index: 10;
 }
 
 a {
     text-decoration: none;
     color: white;
+}
+
+.experiencemap {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    height: 50vw;
+}
+
+.bmc {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    height: 50vw;
+}
+
+
+.personas {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    height: 50vw;
+}
+
+
+.styletile {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    height: 50vw;
 }
