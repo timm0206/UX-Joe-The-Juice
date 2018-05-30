@@ -26,14 +26,15 @@ body {
 
 }
 
-header {}
-
 h1 {
+    margin-top: 2.5em;
     text-align: center;
 
 }
 
-h2 {}
+h2 {
+    text-align: center;
+}
 
 h3 {
     margin-top: 2.5em;
@@ -44,14 +45,20 @@ p {
     margin-top: 2.5em;
     margin-left: 3.66em;
     margin-right: 2.5em;
-
-
 }
 
 a {
     text-decoration: none;
     color: white;
+
+
 }
+
+nav {
+    margin-top: 2em;
+
+}
+
 
 
 /* Navigation */
@@ -90,6 +97,8 @@ nav ul li {
     display: block;
 }
 
+/*navigation slut*/
+
 .storyboard {
     display: inline-block;
     margin-left: auto;
@@ -97,12 +106,6 @@ nav ul li {
     margin-top: 30px;
     height: 50vw;
 }
-
-
-#images {
-    text-align: center;
-}
-
 
 .experiencemap {
     display: inline-block;
@@ -136,4 +139,8 @@ nav ul li {
     margin-right: auto;
     margin-top: 30px;
     height: 50vw;
+}
+
+#images {
+    text-align: center;
 }
